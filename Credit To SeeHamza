@@ -1,0 +1,15 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Slap Battles")
+
+
+local Tab1 = PhantomForcesWindow:NewSection("FrostBite")
+
+
+Tab1:CreateToggle(" Get Glove Frostbite", function(value)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SEEHAMZA52/Frostbite-glove/refs/heads/main/Credit%20To%20donjox%20make%20script"))()
+print(1)
+end)
+local Credits = Window:NewSection("SectionName")
+local Credits = Credits:NewSection("Credit By Hamza")
+CreditsSection:NewLabel("Created by SeeHamza")
